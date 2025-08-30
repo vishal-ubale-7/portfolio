@@ -5,9 +5,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio</title>
+
+  <!-- Swiper CSS -->
   <link rel="stylesheet" href="Libraries/swiper-bundle.min.css" />
+
+  <!-- Main CSS -->
   <link rel="stylesheet" href="Css/style.css" />
+
+  <!-- Icons -->
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <script src="https://kit.fontawesome.com/9b634c15bd.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -49,6 +56,7 @@
   </header>
 
   <main class="main">
+    <!-- HOME -->
     <section class="home section" id="home">
       <div class="home-container container grid">
         <div class="home-content grid">
@@ -65,19 +73,20 @@
           </div>
 
           <div class="home-img">
-            <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg">
               <mask id="mask0" mask-type="alpha">
-                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                <path
+                  d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                  130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                  97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                  0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
               </mask>
               <g mask="url(#mask0)">
-                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                <path
+                  d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                  165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                  129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                  -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
                 <image class="home-blob-img" x="-15" y="-5" href="images/Icons/logo1.png" />
               </g>
             </svg>
@@ -97,7 +106,6 @@
         </div>
         <div class="home-scroll">
           <a href="#about" class="home-scroll-button button-flex">
-            <!-- <i class="fa-solid fa-computer-mouse home-scroll-mouse"></i> -->
             <img class="home-scroll-mouse" src="images/mouse.svg" alt="" />
             <span class="home-scroll-name">Scroll down</span>
             <i class="fa-solid fa-angles-down home-scroll-arrow"></i>
@@ -106,6 +114,7 @@
       </div>
     </section>
 
+    <!-- ABOUT -->
     <section class="about section" id="about">
       <h2 class="section-title">About Me</h2>
       <span class="section-subtitle">My Introduction</span>
@@ -116,18 +125,17 @@
         <div class="about-data">
           <p class="about-description">
             Hello! I'm Vishal Ubale, a passionate Software Developer crafting clean, efficient, and user-friendly applications
-            with
-            the latest applications technologies and trends.
+            with the latest technologies and trends.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- skills and qualification  -->
+    <!-- SKILLS -->
     <section class="skills section" id="skills">
       <h2 class="section-title">Skills</h2>
       <span class="section-subtitle">My Technical Skills</span>
-      <div class="skills-content container" style="display:flex; flex-wrap:wrap; justify-content:flex-end; gap:10px;">
+      <div class="skills-content container">
         <div class="skills-name">C</div>
         <div class="skills-name">Html</div>
         <div class="skills-name">CSS</div>
@@ -143,25 +151,25 @@
         <div class="skills-name">IntelliJ IDEA</div>
         <div class="skills-name">Render</div>
         <div class="skills-name">Heroku</div>
-        <div class="skills-name">Microservices</div> 
+        <div class="skills-name">Microservices</div>
         <div class="skills-name">Docker</div>
         <div class="skills-name">Kubernetes</div>
         <div class="skills-name">Kafka</div>
-        <div class="skills-name">Swagger</div> 
+        <div class="skills-name">Swagger</div>
         <div class="skills-name">Linux</div>
       </div>
     </section>
-
-    <!-- rest of your code stays the same (qualification, projects, contact, footer) -->
-    
-    <!-- ... -->
   </main>
 
+  <!-- Scroll Up Button -->
   <a href="#home" class="scrollup" id="scroll-up">
     <i class="fa-solid fa-arrow-up scroll-up-icon"></i>
   </a>
+
+  <!-- Swiper JS -->
   <script src="Libraries/swiper-bundle.min.js"></script>
-  <script src="https://kit.fontawesome.com/9b634c15bd.js" crossorigin="anonymous"></script>
+
+  <!-- Main JS -->
   <script src="script.js"></script>
 </body>
 </html>
